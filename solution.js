@@ -46,16 +46,16 @@ function solution(A, D) {
 
 // // // 1. Given A = [100, 100, 100, −10] and D = ["2020−12−31", "2020−12−22", "2020−12−03", "2020−12−29"], the function should return 230. Total income was equal to 100 + 100 + 100 − 10 = 290 and the fee was paid every month, so 290 - (5 * 12) = 230.
 
-// const A = [100, 100, 100, -10];
+const A = [100, 100, 100, -10];
 
-// const D = ["2020-12-31", "2020-12-22", "2020-12-03", "2020-12-29"];
+const D = ["2020-12-31", "2020-12-22", "2020-12-03", "2020-12-29"];
 
 // // Call  now the solution function with example arrays A and D
 
-// const result = solution(A, D);
+const result = solution(A, D);
 // // Log the result to the console (output will be the calculated balance below)
 
-// console.log(result);  
+console.log(result);  
 
 
 
@@ -91,7 +91,7 @@ function solution(A, D) {
 // each element of array A is an integer within the range [−1,000..1,000];
 // D contains strings in YYYY−MM−DD format, representing dates in the range 2020−01−01 to 2020−12−31.
 
-const A = [-60,60,-40,-20];
-const D = ["2020-10-01", "2020-02-02", "2020-10-10", "2020-10-30"];
-const result = solution(A,D);
-console.log(result);
+// const A = [-60,60,-40,-20];
+// const D = ["2020-10-01", "2020-02-02", "2020-10-10", "2020-10-30"];
+// const result = solution(A,D);
+// console.log(result);
